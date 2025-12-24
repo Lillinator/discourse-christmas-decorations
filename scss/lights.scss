@@ -44,7 +44,7 @@
       animation-duration: 2s;
       &:nth-child(2n+1) {
         background: rgba(11,162,179,1);
-        box-shadow: 0px $globe-height/6 $globe-width*2 $globe-spread rgba(200,0,0,0.5);
+        box-shadow: 0px $globe-height/6 $globe-width*2 $globe-spread rgba(255,0,0,0.5);
         animation-name: flash-2;
         animation-duration: 0.4s;
       }
@@ -96,8 +96,8 @@
   }
   @keyframes flash-2 {
       0%, 100% { background: rgba(11,162,179,1);
-      box-shadow: 0px $globe-height/6 $globe-width*2 $globe-spread rgba(200,0,0,1);}
-      50% { background: rgba(200,0,0,$light-off-opacity);
+      box-shadow: 0px $globe-height/6 $globe-width*2 $globe-spread rgba(255,0,0,1);}
+      50% { background: rgba(255,0,0,$light-off-opacity);
       box-shadow: 0px $globe-height/6 $globe-width*2 $globe-spread rgba(149,208,65,0.2);}
   }
   @keyframes flash-3 {
